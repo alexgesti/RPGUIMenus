@@ -192,7 +192,7 @@ It should be noted that the controls will share functions between menus and in-g
 
 # Documentation Links
 
-+ [Class presentation]() in PDF.
++ [Class presentation](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/presentation.pdf) in PDF.
 
 **Documentation**
 + [User interface design in video games - English](https://www.gamasutra.com/blogs/AnthonyStonehouse/20140227/211823/User_interface_design_in_video_games.php#:~:text=User%20interface%20design%20in%20games,in%20a%20novel%20or%20film).
