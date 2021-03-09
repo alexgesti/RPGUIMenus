@@ -149,8 +149,8 @@ Having acquired and analyzed all the above knowledge, we are now able to design 
 
 + General menu *out combat*, which will show all the stats of the characters in an expanded way and will allow the player to navigate through a series of submenus that would generally be classified as follows:
   + **Items**: Menu which will appear all the objects that the player carries with me.It will have 2 submenus within this same if it requires it, which would be:
-  + **Objects**: Objects which the player can use at any time and are consumable, therefore, they are spent. To get back to them, the player must buy them, find them in the world or defeat enemies.
-  + **Key objects**: Important objects to advance in the history of the game. If the player does not have any of these objects, it will be impossible for him to continue advancing. Also, these items are non-consumable, unique, and there are usually not many of them.
+    + **Objects**: Objects which the player can use at any time and are consumable, therefore, they are spent. To get back to them, the player must buy them, find them in the world or defeat enemies.
+    + **Key objects**: Important objects to advance in the history of the game. If the player does not have any of these objects, it will be impossible for him to continue advancing. Also, these items are non-consumable, unique, and there are usually not many of them.
 
     ![template_2](images/template2.png)
 
