@@ -20,4 +20,3 @@ If you have any doubts the repo or the content itself, contact me at alexgesti00
   + [User interface design in video games - English](https://www.gamasutra.com/blogs/AnthonyStonehouse/20140227/211823/User_interface_design_in_video_games.php#:~:text=User%20interface%20design%20in%20games,in%20a%20novel%20or%20film).
   + [Subgenres in the RPG genre - Spanish](http://www.destinorpg.es/2014/05/los-subgeneros-en-el-genero-rpg.html).
   + [What is: UX and UI - Spanish](https://blog.acantu.com/que-es-ux-y-ui/#:~:text=UX%20es%20aquello%20que%20una,con%20un%20producto%20o%20servicio.&text=Es%20muy%20com%C3%BAn%2C%20que%20el,con%20lo%20que%20se%20interact%C3%BAa).
-  + [Interface In Game | Collection of video game UI](https://interfaceingame.com/).
