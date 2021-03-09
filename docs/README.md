@@ -89,17 +89,113 @@ Although RPGs are a very specific genre in the world of video games, there are d
 
 + **SRPG - Strategic RPGs**: In general, this subgenre is usually the one that bears the most similarities to board RPGs, dividing the scenarios into squares, allowing us to handle large groups and giving each unit a certain mobility that can be affected by terrain accidents.
 
-This type of RPGs, represented mainly by series such as Shining Force, Fire Emblem, Final Fantasy Tactics or Disgaea.
+  This type of RPGs, represented mainly by series such as Shining Force, Fire Emblem, Final Fantasy Tactics or Disgaea.
 
-Regarding the composition of the interfaces of these in combat, it usually shows the board in a kind of grid and allows the player to know which squares both the player and the opponent can move during their turn.
+  Regarding the composition of the interfaces of these in combat, it usually shows the board in a kind of grid and allows the player to know which squares both the player and the opponent can move during their turn.
 
-![Fire Emblem Fates - Nintendo](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/fefatesmap.png)
+  ![Fire Emblem Fates - Nintendo](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/fefatesmap.png)
 
-On the other hand, this interface usually also shows the names of the characters, the life of which it has, both visually and in an extended way once it is about to attack.
+  On the other hand, this interface usually also shows the names of the characters, the life of which it has, both visually and in an extended way once it is about to attack.
 
-In addition it also shows in a simple way the percentages of success, damage and critical, as well as the same data of the rival.
+  In addition it also shows in a simple way the percentages of success, damage and critical, as well as the same data of the rival.
 
-On the other hand, these menus usually let the player change weapons quickly by pressing a button on the gamepad.
+  On the other hand, these menus usually let the player change weapons quickly by pressing a button on the gamepad.
 
-![Fire Emblem Fates - Nintendo](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/fefatesbeforebattle.png)
+  ![Fire Emblem Fates - Nintendo](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/fefatesbeforebattle.png)
 
+# What is a UX?
+
+Before continuing, we must clarify that it is a User Experience.
+User Experience, by definition, "is what a person perceives when interacting with a product or service", or in other words and referring to our topic, every good interface must be useful, usable and desirable, making the user feel satisfied, happy and delighted.
+
+It should be said that unlike usability, which is present in the foundations of developing a good interface, it tries to make the user capable of doing a certain amount of things thus preventing errors in it, while UX seeks to please the user with your organization and information of things.
+
+Here are 2 exemples of a good and a bad thing to do in a combat interface referring to the UX part:
+
+### Good things to do
+
+In Persona 5, when the combat start it appears the interface shown below appears. It does a number of things well done:
+
++ Mark each action that the player can do in an understandable and clear way.
++ Show each player's turn in a dynamic, attractive and clear way.
++ Show the target that you are going to attack before executing the action.
+
+![Persona 5 - Atlus](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/p5combat.png)
+
+### Good things to do
+
+In Persona 3 Portable, when the combat start it appears the interface shown below appears. It does a number of things done poorly:
+
++ The action to be taken by the player is not understood.
++ It is not known which character is being controlled at this time.
++ There is no difference which can be the life bar and the stamina bar.
++ It does not mark which character is going to attack before executing the action.
++ It is not understandable what the faces they show next to the characters mean.
+
+![Persona 3 - Atlus](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/p3combat.png)
+
+# How we will organize our own interface and menus
+
+Having acquired and analyzed all the above knowledge, we are now able to design our own interfaces. Knowing that our game must be a type of **turn-based combat**, in general we will have these interfaces:
++ *In combat* interface, which will contain all our stats and will allow us to execute a movement at the same time that it will inform about the movements made by the player or the enemy.
+
+  In general, this interface will contain 5 options, attack, which will allow the player to attack, defend, which will allow the player to defend himself, but will also receive a lower amount of damage, skills, menu in which it allows the player to use a special ability, items, menu which will allow the player to use a regenerating potion of life or special points, among other objects such as to allow when playing to have more attack or defense for a few turns, run, which will allow the player to flee from the battle, it should be noted that this menu will **generally** not be available in boss fights.
+
+  ![Template_1](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/template1.png)
+
++ *Out combat* interface, which will inform about the life that the player and his teammates have at all times. This may have a minimap which will guide the player to their next destination.
+
+  It should be noted that this interface or some part of this interface may not be present in the game being developed.
+
++ General menu *out combat*, which will show all the stats of the characters in an expanded way and will allow the player to navigate through a series of submenus that would generally be classified as follows:
+  + **Items**: Menu which will appear all the objects that the player carries with me.It will have 2 submenus within this same if it requires it, which would be:
+  + **Objects**: Objects which the player can use at any time and are consumable, therefore, they are spent. To get back to them, the player must buy them, find them in the world or defeat enemies.
+  + **Key objects**: Important objects to advance in the history of the game. If the player does not have any of these objects, it will be impossible for him to continue advancing. Also, these items are non-consumable, unique, and there are usually not many of them.
+
+    ![template_2](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/template2.png)
+
+  + **Equipment**: Menu in which it will allow to change the weapons and equipment of each member of the group.
+  + **Attributes / Stats**: Menu which will provide detailed information on each life value, special points, attack, defense, speed, skill and luck. These can vary depending on the game that is played.
+
+    In addition, it will also inform if the player has an alteration in his states, be it that he is poisoned or that he has a buff when wearing a specific equipment.
+
+    ![template_3](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/template3.png)
+    
+  + **Map**: Menu which shows the map in full screen with each place in which the player can go, in addition to its position and the destination to which it must arrive.
+    It should be noted that in some cases this can show the position of enemies or non-playable characters.
+  + **Settings**: General menu which will allow the player to change some game settings, for example graphic quality, volume or controls.
+
+    ![template_4](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/template4.png)
+    
+# Mapping the controls in the interface and menus
+
+Given the above, I will show you how the controls should be for both the computer and the controls when it comes to navigating the menus of your game.
+
+It should be noted that the controls will share functions between menus and in-game controls, they can also be configurable and with which the ones that I am going to show you right now may not be definitive in some of your games:
+
+### Keyboard
+
+![KeyBoard](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/keyboardcontrolls.png)
+
++ Having used **WASD** as the character movement controls, it is recommended that **W** and **S** be used to navigate the menus as well, with **W** being to move the menu selection **up** and **S** to move the menu selection **down**.
++ While **E**, **Enter** and **Space**, used to interact with the environment, can be used to **select** a menu and thus enter the next submenu or give it to accept. These can vary making only 1 of these keys work to do the named action.
++ Finally, **Escape**, will be used as **cancel** or **go back**, while when the player is in the main menu of the submenus, it will close completely and return to the game.
+
+### Gamepad
+
+![Gamepad](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/controllercontrolls.png)
+
++ Having used the **left stick** and the **d-pad** as the movement controls of the characters, it is recommended that these are also used to navigate through the menus, with the **up d-pad button** and **up left stick** above to move the menu selection **up** and **down d-pad button** and **down left stick** to move menu selection **down**.
++ While **A**, used to interact with the environment, can be used to **select** a menu and thus enter the next submenu or give it to **accept**.
++ **B**, will be used as **cancel** or **backward**, while when the player is in the main menu of the submenus, it will close completely and return to the game.
++ Finally, the **Menu button** on the Xbox One controller can be used to close the menu completely regardless of which submenu it is in and thus **return** to the game immediately.
+
+# Documentation and References
+
++ [Class presentation]() in PDF.
+
+**References**
++ [User interface design in video games - English](https://www.gamasutra.com/blogs/AnthonyStonehouse/20140227/211823/User_interface_design_in_video_games.php#:~:text=User%20interface%20design%20in%20games,in%20a%20novel%20or%20film).
++ [Subgenres in the RPG genre - Spanish](http://www.destinorpg.es/2014/05/los-subgeneros-en-el-genero-rpg.html).
++ [What is: UX and UI - Spanish](https://blog.acantu.com/que-es-ux-y-ui/#:~:text=UX%20es%20aquello%20que%20una,con%20un%20producto%20o%20servicio.&text=Es%20muy%20com%C3%BAn%2C%20que%20el,con%20lo%20que%20se%20interact%C3%BAa).
++ [Interface In Game | Collection of video game UI](https://interfaceingame.com/).
