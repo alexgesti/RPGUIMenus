@@ -122,7 +122,7 @@ In Persona 5, when the combat start it appears the interface shown below appears
 
 ![Persona 5 - Atlus](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/p5combat.png)
 
-### Good things to do
+### Bad things to do
 
 In Persona 3 Portable, when the combat start it appears the interface shown below appears. It does a number of things done poorly:
 
