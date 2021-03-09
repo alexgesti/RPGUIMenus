@@ -190,11 +190,11 @@ It should be noted that the controls will share functions between menus and in-g
 + **B**, will be used as **cancel** or **backward**, while when the player is in the main menu of the submenus, it will close completely and return to the game.
 + Finally, the **Menu button** on the Xbox One controller can be used to close the menu completely regardless of which submenu it is in and thus **return** to the game immediately.
 
-# Documentation and References
+# Documentation Links
 
 + [Class presentation]() in PDF.
 
-**References**
+**Documentation**
 + [User interface design in video games - English](https://www.gamasutra.com/blogs/AnthonyStonehouse/20140227/211823/User_interface_design_in_video_games.php#:~:text=User%20interface%20design%20in%20games,in%20a%20novel%20or%20film).
 + [Subgenres in the RPG genre - Spanish](http://www.destinorpg.es/2014/05/los-subgeneros-en-el-genero-rpg.html).
 + [What is: UX and UI - Spanish](https://blog.acantu.com/que-es-ux-y-ui/#:~:text=UX%20es%20aquello%20que%20una,con%20un%20producto%20o%20servicio.&text=Es%20muy%20com%C3%BAn%2C%20que%20el,con%20lo%20que%20se%20interact%C3%BAa).
