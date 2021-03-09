@@ -15,7 +15,7 @@ Well-executed elements of this type of interface enhance the narrative experienc
     + The main menu allows level selection, viewing conversation as if it were a chat, viewing collectibles or the same options all happens within the same game, making the character truly observe everything at the same size as the player appreciates it. 
     + In addition, a small extra detail that this menu has is that the player when moving the joystick to change the level or option, makes the character also move the joystick that he has in his hand, making this menu immerse the player more when he controls it.
     
-    ![Splatoon 2: Octo Expansion - Nintendo](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/splatoon2octoexpansionmenu.png)
+    ![Splatoon 2: Octo Expansion - Nintendo](./images/splatoon2octoexpansionmenu.png)
     
   + *Persona 5 Strikers -> Third Eye*
     + The game uses its third eye to highlight enemies and their level, see nearby treasures and see the places which the player can stand to wait to attack.
@@ -29,7 +29,7 @@ Well-executed elements of this type of interface enhance the narrative experienc
   + *Overwatch -> Blood*
     + In this case, when the player takes enough damage to have 25% of their life left, the screen will fill with blood, implying that the player is losing life.
       
-    ![Overwatch - Blizzard](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/overwatchlowhealth.png)
+    ![Overwatch - Blizzard](./images/overwatchlowhealth.png)
      
   + *Xenoblade Chronicles 2 -> Special Attack*
     + In certain moments of the combat, the game will show a sequence of buttons while the characters make a special move which will do more damage than a normal one.
