@@ -141,7 +141,7 @@ Having acquired and analyzed all the above knowledge, we are now able to design 
 
   In general, this interface will contain 5 options, attack, which will allow the player to attack, defend, which will allow the player to defend himself, but will also receive a lower amount of damage, skills, menu in which it allows the player to use a special ability, items, menu which will allow the player to use a regenerating potion of life or special points, among other objects such as to allow when playing to have more attack or defense for a few turns, run, which will allow the player to flee from the battle, it should be noted that this menu will **generally** not be available in boss fights.
 
-  ![Template_1](https://github.com/alexgesti/RPGUIMenus/blob/main/docs/images/template1.png)
+  ![Template_1](images/template1.png)
 
 + *Out combat* interface, which will inform about the life that the player and his teammates have at all times. This may have a minimap which will guide the player to their next destination.
 
@@ -198,5 +198,3 @@ It should be noted that the controls will share functions between menus and in-g
 + [User interface design in video games - English](https://www.gamasutra.com/blogs/AnthonyStonehouse/20140227/211823/User_interface_design_in_video_games.php#:~:text=User%20interface%20design%20in%20games,in%20a%20novel%20or%20film).
 + [Subgenres in the RPG genre - Spanish](http://www.destinorpg.es/2014/05/los-subgeneros-en-el-genero-rpg.html).
 + [What is: UX and UI - Spanish](https://blog.acantu.com/que-es-ux-y-ui/#:~:text=UX%20es%20aquello%20que%20una,con%20un%20producto%20o%20servicio.&text=Es%20muy%20com%C3%BAn%2C%20que%20el,con%20lo%20que%20se%20interact%C3%BAa).
-+ [Interface In Game | Collection of video game UI](https://interfaceingame.com/).
-
